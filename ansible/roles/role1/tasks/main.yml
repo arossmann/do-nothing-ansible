@@ -1,0 +1,40 @@
+---
+- name: Step 1
+  shell: |
+    echo "# Step 1"
+    echo "Action: do this"
+    echo "Verification: check, if you can see X at the output"
+
+- pause:
+    prompt: "Finished?"
+    echo: no
+
+- name: Step 2
+  shell: |
+    echo "# Step 2"
+    echo "Action: do that"
+    echo "Verification: check, if you can see Y at the output"
+
+- pause:
+    prompt: "Finished?"
+    echo: no
+
+- name: Step 3
+  shell: |
+    echo "# Step 3"
+    echo "Action: run script: ./run_this_important_script.sh"
+    echo "Verification: check, if you can see this at the output: # Script run_this_important_script.sh was executed successfully."
+
+- pause:
+    prompt: "Finished?"
+    echo: no
+
+- name: Step 4
+  shell: |
+    echo "# Step 4"
+    echo "Action: do another step"
+    echo "Verification: check, if you can see Z at the output"
+
+- pause:
+    prompt: "Finished?"
+    echo: no
