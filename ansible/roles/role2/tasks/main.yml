@@ -23,5 +23,8 @@
 - name: Step 2
   shell: |
     echo "# Step 2"
+    echo "  ('>"  
+    echo "  (V)"  
+    echo " <(__\["
     echo "Action: Now do this"
     echo "Verification: check, if you can see Y at the output"
