@@ -1,6 +1,6 @@
 # README
 
-This code repository aims to provide a basic for a do-nothing-script with Ansible. After reading [this](https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/) great article I started to play around with this concept. As many rely on Ansible for the automation of tasks, I thought: let's give it a try.
+This code repository aims to provide a basic for a do-nothing-script with Ansible. After reading [this](https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/) great article I started to play around with this concept. As many rely on Ansible for the automation of tasks, I thought: let's give it a try (with the help of [this](https://medium.com/@ayeshasilvia/testing-ansible-playbook-in-a-docker-container-21628e9ee256) perfect guideline).
 
 And here it is.
 
